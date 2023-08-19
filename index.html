@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="content" width="device-width, scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="stlye.css">
+    </head>
+    <body>
+        <main id="main">
+            <section>
+                <div id="container">
+                    <form id="inner-container">
+                            <div class="date">
+                                <div>
+                                    <p class="title">DAY</p>
+                                    <input type="text" name="date" id="date" placeholder="DD" minlength="1" maxlength="2"  required>
+                                </div>
+                                <div >
+                                    <p class="title">MONTH</p>
+                                    <input type="text" name="month" id="month" placeholder="MM" minlength="1" maxlength="2" required>
+                                </div>
+                                <div >
+                                    <p class="title"> YEAR</p>
+                                    <input type="text" name="year" id="year" placeholder="YYYY" minlength="1" maxlength="4" required>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <input id="submit" type="submit" name="submit" value="submit" onclick="age()">
+                            </div>
+                            <div id="Age">
+                                <div class="calculator">
+                                    <p class="age" id="age"></p>
+                                    <h2>years</h2>
+                                </div>
+                                <div class="calculator">
+                                    <p class="age" id="age"></p>
+                                    <h2>months</h2>
+                                </div>
+                                <div class="calculator">
+                                    <p class="age" id="age"></p>
+                                    <h2>days</h2>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
+
+<!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css -->
